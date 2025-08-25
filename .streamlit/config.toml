@@ -1,0 +1,13 @@
+[theme]
+base="light"  # pode ser "light" ou "dark"
+primaryColor="#E50914"  # vermelho Netflix
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F5F5F5"
+textColor="#111111"
+font="sans serif"
+
+[server]
+headless = true
+
+[client]
+toolbarMode = "minimal"

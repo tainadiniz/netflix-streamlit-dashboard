@@ -1,0 +1,7 @@
+streamlit==1.37.1
+pandas>=2.1.0
+numpy>=1.25.0
+plotly>=5.22.0
+wordcloud>=1.9.3
+kaggle>=1.6.17
+rapidfuzz>=3.0.0
