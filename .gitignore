@@ -1,21 +1,66 @@
-# Dados grandes (não subir pro GitHub)
+# ========================
+# Dados grandes (não versionar no GitHub)
+# ========================
 *.tsv
 *.csv
 *.gz
 *.zip
+*.parquet
+*.hdf5
+*.db
+*.sqlite
+*.feather
+*.sav
+*.xls
+*.xlsx
 data/
 
-# Logs e cache
+# ========================
+# Logs, cache e temporários
+# ========================
 *.log
 *.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Configs locais
+# ========================
+# Configurações locais
+# ========================
 .env
 *.env
 /secrets.toml
+/config.toml
+/credentials.json
 
-# VSCode / PyCharm
+# ========================
+# Virtualenvs
+# ========================
+venv/
+.venv/
+ENV/
+env/
+
+# ========================
+# IDEs e editores
+# ========================
 .vscode/
 .idea/
+*.iml
+
+# ========================
+# Streamlit
+# ========================
+.streamlit/
+.streamlit/config.toml
+
+# ========================
+# Checkpoints de Jupyter
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
