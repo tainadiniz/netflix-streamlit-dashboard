@@ -1,0 +1,21 @@
+# Dados grandes (não subir pro GitHub)
+*.tsv
+*.csv
+*.gz
+*.zip
+data/
+
+# Logs e cache
+*.log
+*.tmp
+__pycache__/
+*.pyc
+
+# Configs locais
+.env
+*.env
+/secrets.toml
+
+# VSCode / PyCharm
+.vscode/
+.idea/
